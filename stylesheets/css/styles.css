@@ -1,0 +1,184 @@
+/* Top right admin icon, admin log and down arrow */
+
+header {
+  height: 180px;
+  width: 100%;
+  padding-top: 10px;
+  background-color: #2b2b2b;
+}
+
+.admin {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 10px;
+  margin-right: 10px;
+  height: 30px;
+}
+
+.admin-logo {
+  height: 30px;
+  width: 30px;
+}
+
+.admin p {
+  font-family: Helvetica;
+  font-weight: lighter;
+  color: #4699ce;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.down-arrow {
+  height: 18px;
+  width: 18px;
+}
+
+/* Navbar left section */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-items: flex-end;
+}
+
+nav left {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+nav left img {
+  height: 18px;
+  width: 18px;
+  margin-right: 5px;
+}
+
+nav left a {
+  font-family: Helvetica;
+  font-weight: lighter;
+  color: #7b7a7c;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+/* Navbar right section containing 2Win! logo */
+
+nav right img {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  height: 60px;
+}
+
+#playlist {
+  height: 30px;
+}
+
+/* Main body margins left and right */
+
+main {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Main Body 'Shares' text */
+main h1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: Helvetica;
+  color: #56565b;
+  font-size: 32px;
+}
+
+/* Main Body with the cards */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  width: 24%;
+  height: auto;
+  margin-bottom: 20px;
+  box-shadow: 3px 3px 3px #ccc;
+}
+
+.office-guy {
+  width: 100%;
+  object-fit: contain;
+}
+
+.arrow-right {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 10px;
+  height: 50px;
+  width: 50px;
+  /* object-fit: contain; */
+}
+
+.rest-of-card {
+  margin-top: 10px;
+  height: 200px;
+}
+
+#name {
+  font-family: Helvetica;
+}
+
+#date {
+  margin-top: 5px;
+  font-family: Helvetica;
+  font-size: 12px;
+  color: #b8b9bc;
+}
+
+#url {
+  height: 20px;
+  line-height: 20px; /* To center in the container */
+  padding-left: 5px;
+  margin-top: 20px;
+  margin-right: 5px;
+  font-family: Helvetica;
+  font-size: 12px;
+  color: #56565b;
+  text-decoration: none;
+  background-color: #efefef;
+}
+
+#playlist {
+  margin-top: 20px;
+  font-family: Helvetica;
+  font-size: 10px;
+  color: #797a7d;
+  height: 16px;
+}
+
+#pname {
+  font-family: Helvetica;
+  font-size: 14px;
+  color: #797a7d;
+}
+
+#attachments {
+  margin-top: 20px;
+  font-family: Helvetica;
+  font-size: 10px;
+  color: #797a7d;
+}
+
+#number {
+  margin-top: 2px;
+  font-family: Helvetica;
+  font-size: 28px;
+  color: #48bdfb;
+}
